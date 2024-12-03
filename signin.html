@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h2 dir="rtl">
+            <a href="gallery.html">گالری</a>|
+            <a href="news.html">اخبار</a>|
+            <a href="signin.html">ثبت نام</a>|
+            <a href="about.html">درباره من</a>
+        </h2>
+    </center>
+    <div class="form">
+    <form action="" method="" enctype="" dir="rtl">
+        <label for="name">نام :</label><br>
+        <input type="text" id="Name" placeholder="سپهر" minlength="6" title="only shown for you" required><br><br>
+        <label for="surname">نام خانوادگی :</label>
+        <input type="text" id="surname" minlength="6" placeholder="اصغری" title="only shown for you" required><br><br>
+        <label for="username">نام کاربری :</label>
+        <input type="text" id="username" placeholder="SPHERS" minlength="6" required><br><br>
+        <label for="pnumber">تلفن همراه :</label>
+        <input type="tel" placeholder="09*********" required maxlength="11"><br><br>
+        <label for="email">پست الکترونیک :</label>
+        <input type="email" id="email" required placeholder="S*********@email.com"><br><br>
+        <label for="gender">جنسیت :</label><br>
+        <label for="male">مرد</label>
+        <input type="radio" id="Male" name="Gender">
+        <label for="female">زن</label>
+        <input type="radio" id="Female" name="Gender"><br><br>
+        <label for="birthday">تاریخ تولد :</label>
+        <input type="date" id="birthday"><br><br>
+        <label for="degree">مدرک تحصیلی :</label>
+        <select id="degree">
+            <option value="Php">دکترا</option>
+            <option value="bachelore">کارشناسی</option>
+            <option value="diploma">دیپلم</option>
+        </select><br><br>
+        <label for="rules"><a href="">قوانین</a> را مطالعه کردم</label>
+        <input type="checkbox" id="rules" required><br><br>
+        <button title="ثبت">ثبت</button>
+        <input type="reset" title="بازنویسی" value="بازنویسی">
+    </form>
+    </div>
+</body>
+</html>
